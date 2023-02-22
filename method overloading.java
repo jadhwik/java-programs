@@ -2,19 +2,19 @@ import java.util.Scanner;
 public class area {
     static void area1(int l,int b){
         int  a=l*b;
-        System.out.println(a);
+        System.out.println("The area of rectangle is"+a);
     }
     static void area1(int r){
         double pi=3.14;
         double a= pi*r*r;
-        System.out.println(a);
+        System.out.println("The area of circle:"+a);
 
 
     }
     static void area1(int a,int b,int c){
         double s=(a+b+c)/2;
         double ar=Math.sqrt((s-a)+(s-b)+(s-c)/3);
-        System.out.println(ar);
+        System.out.println(The area of triangle is:"+ar);
 
     }
     public static void main(String args[]){
