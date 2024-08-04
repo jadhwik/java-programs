@@ -10,6 +10,7 @@ abstract class Animal {
     }
 }
 
+//Dog class extending animal class
 class Dog extends Animal {
     double time;
 
@@ -27,6 +28,7 @@ class Dog extends Animal {
     }
 }
 
+//Cat class extending Animal
 class Cat extends Animal {
     double time;
 
@@ -43,6 +45,7 @@ class Cat extends Animal {
     }
 }
 
+//Bird class extending Animal
 class Birds extends Animal {
     double time;
 
